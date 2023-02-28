@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Zori Comsetics</title>
+
+	<link rel = "stylesheet" href = "styles/style.css">
+
+	<link rel="stylesheet" href="OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.theme.default.min.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Gloock&display=swap" rel="stylesheet">
+
+	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="src/source.js"></script>
+
+	<script src="OwlCarousel2-2.3.4/docs/assets/owlcarousel/owl.carousel.min.js"></script>
+</head>
+<body>
+	<header>
+		<h1>Zori Cosmetics</h1>
+		<nav class="header__navigation">
+			<button class="navigation__button">Log in<img src="styles/images/profile.svg" class="button__image"/></button>
+			<button class="navigation__button">My cart<img src="styles/images/cart.svg" class="button__image"/></button>
+		</nav>
+	</header>
+	<main>
+		<div class="carousel">
+			<div class="owl-carousel">
+			  <div> <img src="styles/images/product1.jpg"/> </div>
+			  <div> <img src="styles/images/product2.jpg"/> </div>
+			  <div> <img src="styles/images/product3.jpg"/> </div>
+			  <div> <img src="styles/images/product4.jpg"/> </div>
+			  <div> <img src="styles/images/product5.jpg"/> </div>
+			  <div> <img src="styles/images/product6.jpg"/> </div>
+			  <div> <img src="styles/images/product7.jpg"/> </div>
+			</div>
+		</div>
+		<div class="description">
+			<h2>Olay Active Hydrating Cream Face Moisturizer, 1.9 fl oz Packaging may Vary</h2>
+			<button class="description__button">Add to cart</button>
+			<div class="description__tabs">
+				<button id="t1" class="tabs__tab flagged">About</button>
+				<button id="t2" class="tabs__tab">Use</button>
+				<button id="t3" class="tabs__tab">Ingredients</button>
+				<button id="t4" class="tabs__tab">Review</button>
+			</div>
+			<div class="description__texts">
+				<div id="b1" class="texts__tab flagged">
+					<h3>About</h3>
+					<p>Cream moisturizer restores dry skin with 48 hours of long-lasting moisture
+					Actively hydrates to help smooth skin & fight the appearance of fine lines & wrinkles
+					Rich, cream formula won’t clog pores</p>
+				</div>
+				<div id="b2" class="texts__tab">
+					<h3>Use</h3>
+					<p>Give skin 48 hours of moisture with Olay Active Hydrating Cream Moisturizer. It’s formulated to deliver long-lasting hydration to soothe dry skin and fight the appearance of fine lines and wrinkles. This hydrating and oil-free face moisturizer is non-greasy and replenishes skin with essential moisture without clogging pores – helping to restore skin back to natural beauty.</p>
+				</div>
+				<div id="b3" class="texts__tab">
+					<h3>Ingredients</h3>
+					<p>Water/Eau; Glycerin; Cetyl Alcohol; Petrolatum; Cyclopentasiloxane; Stearyl Alcohol; Isopropyl Palmitate; Dimethicone; Carbomer; PEG-100 Stearate; Stearic Acid; Sodium Hydroxide; DMDM Hydantoin; Iodopropynyl Butylcarbamate; EDTA; PEG/PPG-18/18 Dimethicone; Fragrance/Parfum; Titanium Dioxide; Red 4</p>
+				</div>
+				<div id="b4" class="texts__tab">
+					<h3>Review</h3>
+					<p>My grandmother used to use this and it works amazing for me especially in the winter. It doesn’t smell bad, it makes your skin feel refreshed. The only thing I was unhappy about was the late shipping but aside from that I would definitely buy.</p>
+				</div>
+			</div>
+		</div>
+	</main>
+	<div id="popUp" class="popUp">
+		<form class="popUp__form">
+			<label for="fName">First name:</label>
+			<input type="text" name="fName">
+			<label for="lName">Last name:</label>
+			<input type="text" name="lName">
+			<label for="phone">Phone number:</label>
+			<input type="phone" name="phone">
+			<input class="submit" type="submit" name="submit" value="Add to cart">
+			<img class="cross" src="styles/images/cross.svg">
+		</form>
+	</div>
+	<footer>
+		<p>2023 Created by Zornitsa Digital</p>
+	</footer>
+</body>
+</html>
